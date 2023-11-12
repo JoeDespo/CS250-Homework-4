@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7BEFF4D72AFAAA5F008BEF3B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFF4D62AFAAA5F008BEF3B /* main.cpp */; };
+		7BEFF4DF2AFAAEF6008BEF3B /* EvenStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFF4DD2AFAAEF6008BEF3B /* EvenStack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7BEFF4D32AFAAA5F008BEF3B /* CS250 Homework 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS250 Homework 4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEFF4D62AFAAA5F008BEF3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7BEFF4DD2AFAAEF6008BEF3B /* EvenStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EvenStack.cpp; sourceTree = "<group>"; };
+		7BEFF4DE2AFAAEF6008BEF3B /* EvenStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EvenStack.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7BEFF4D62AFAAA5F008BEF3B /* main.cpp */,
+				7BEFF4DD2AFAAEF6008BEF3B /* EvenStack.cpp */,
+				7BEFF4DE2AFAAEF6008BEF3B /* EvenStack.hpp */,
 			);
 			path = "CS250 Homework 4";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BEFF4DF2AFAAEF6008BEF3B /* EvenStack.cpp in Sources */,
 				7BEFF4D72AFAAA5F008BEF3B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
